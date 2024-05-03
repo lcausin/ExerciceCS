@@ -43,12 +43,15 @@ body{
     margin: 0;
 }
 
+
 div.contenu{
     background-color: white;
     border: 2px black;
-    margin : 60px 10% 80px 10%;
-    padding: 0px 30px 30px 30px;
+    margin : 40px 8px 40px 8px;
+    padding: 0px 8px 20px 8px;
     box-shadow:0px 0px 8px 8px rgba(0, 0, 0, 0.1) ;
+    text-align: center;
+    min-width: 300px;
 }
 
 p.description{
@@ -68,10 +71,6 @@ div.description{
     width: 100%;
 }
 
-.contenu{
-    text-align: center;
-    min-width: 350px;
-}
 
 
 
@@ -81,7 +80,6 @@ h1{
 
 .info{
     max-height: 400px;
-    max-width: 100%;
     display: block;
 }
 
@@ -103,17 +101,17 @@ img.info{
     width: 100%;
     color: white;
     background-color: #6C829DC0;
-    height: 80px;
+    height: 50px;
     vertical-align: top;
 }
 
 .tableIndication td{
-    font-size: 13px;
+    font-size: 12px;
     vertical-align: top;
 }
 
 .tableIndication th{
-    font-size: 16px;
+    font-size: 14px;
     vertical-align: bottom;
     padding-bottom: 8px;
 }
@@ -130,20 +128,13 @@ img.info{
 
 .colonne{
     
-    display: inline-block;
-    width: 45%;
+    width: 100%;
     margin-top: 20px;
     
 
 }
 
-
-.colonne1{
-   
-}
-
 .colonne2{
-    float: right;
     text-align: left;
 }
 
@@ -187,3 +178,50 @@ table.preparation tr{
     min-height: 40px;
 }
 
+/*Style pour ordinateur*/
+@media only screen and (min-width: 768px){
+
+
+    div.contenu{
+        margin : 60px 10% 80px 10%;
+        padding: 0px 30px 30px 30px;
+        min-width: 350px;
+    }
+
+    .tableIndication{
+        height: 80px;
+    }
+
+    .tableIndication td{
+        font-size: 13px;
+    }
+    
+    .tableIndication th{
+        font-size: 16px;
+    }
+
+    .colonne{
+    
+        display: inline-block;
+        width: 45%;
+        margin-top: 20px;
+        
+    
+    }
+    
+    .colonne2{
+        float: right;
+        text-align: left;
+    }
+    
+
+}
+
+@media only screen and (min-width: 900px){
+
+    div.contenu{
+        margin-left: auto;
+        margin-right: auto;
+        width: 645px;
+    }
+}

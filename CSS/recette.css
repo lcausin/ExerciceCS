@@ -1,0 +1,189 @@
+
+
+.colonnes-recette{
+    overflow:auto;
+}
+
+.premiere-partie{
+    overflow: visible;
+}
+
+
+
+div.line{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.categorie {
+    background-color: black;
+    color : white;
+    padding: 8px 18px;
+    max-width: 150px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-top: -15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.categorie{
+    margin-bottom: 0px;
+    
+}
+
+body{
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+div.contenu{
+    background-color: white;
+    border: 2px black;
+    margin : 60px 10% 80px 10%;
+    padding: 0px 30px 30px 30px;
+    box-shadow:0px 0px 8px 8px rgba(0, 0, 0, 0.1) ;
+}
+
+p.description{
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.description{
+    
+    
+}
+
+.centre{
+    text-align: center;
+    width: 100%;
+}
+
+.contenu{
+    text-align: center;
+    min-width: 350px;
+}
+
+
+
+h1{
+    font-weight: bold;
+}
+
+.info{
+    max-height: 400px;
+    max-width: 100%;
+    display: block;
+}
+
+div.info{
+    position: relative;
+    
+}
+
+img.info{
+
+    object-fit: cover;
+    min-height: 200px;
+}
+
+.tableIndication{
+    position: absolute;
+    bottom:0px;
+    border-spacing: 0px;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+    height: 80px;
+    vertical-align: top;
+}
+
+.tableIndication td{
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.tableIndication th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+
+.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+
+}
+
+.colonne{
+    
+    display: inline-block;
+    width: 45%;
+    margin-top: 20px;
+    
+
+}
+
+
+.colonne1{
+   
+}
+
+.colonne2{
+    float: right;
+    text-align: left;
+}
+
+.liste p{
+    border: 1px solid lightgray;
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+    padding-top : 5px;
+    padding-bottom : 5px;
+    font-size: 14px;
+}
+
+.preparation li{
+    font-size: 14px;
+}
+
+.numero{
+    background-color: #6C829D;
+    border-radius: 50%;
+    border-color: 1px solid #6C829D;
+    padding-top: 3px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+table.preparation td.action{
+    text-align:left;
+    vertical-align: center;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+table.preparation tr{
+    min-height: 40px;
+}
+
